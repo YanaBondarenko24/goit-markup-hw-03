@@ -60,9 +60,6 @@ img {
   overflow: hidden;
 }
 
-.section {
-}
-
 .section-title {
   font-weight: 500;
   font-size: 20px;
@@ -81,8 +78,6 @@ img {
 .container {
   max-width: 1158px;
   padding: 0 15px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 
   outline: 2px solid red;
   outline-offset: -2px;
@@ -178,13 +173,13 @@ img {
 /* #region Hero section*/
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 188px 0;
 }
 
 .hero-title {
@@ -333,14 +328,10 @@ img {
   padding: 100px 0;
 }
 .footer-container {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 
 .footer-logo {
   display: inline-block;
-  padding-top: 100px;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
