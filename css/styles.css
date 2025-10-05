@@ -18,6 +18,7 @@ a {
 button {
   font-family: inherit;
   cursor: pointer;
+  border: none;
 }
 address {
   font-style: normal;
@@ -97,7 +98,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  margin-bottom: 0;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header-logo {
   display: flex;
@@ -182,10 +184,11 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 188px 0;
 }
 
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
@@ -197,7 +200,7 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
   font-weight: 500;
   font-size: 16px;
   background-color: #4d5ae5;
@@ -215,6 +218,7 @@ img {
 /* #region Principles section*/
 
 .principles {
+  padding: 120px 0;
 }
 .principles-list {
   display: flex;
@@ -237,6 +241,7 @@ img {
 .team {
   background-color: #f4f4fd;
   text-align: center;
+  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -251,6 +256,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
 }
 .team-list-item {
   background-color: #ffffff;
@@ -263,9 +269,10 @@ img {
 }
 .icon-container {
   width: 232px;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-list-title {
+  margin-bottom: 8px;
 }
 .team-list-text {
 }
@@ -274,6 +281,8 @@ img {
 
 /* #region Portfolio section*/
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -289,7 +298,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 36px 24px;
+  gap: 48px 24px;
 }
 .portfolio-list-item {
   background-color: #fff;
@@ -321,6 +330,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 .footer-container {
   display: flex;
@@ -329,6 +339,7 @@ img {
 }
 
 .footer-logo {
+  display: inline-block;
   padding-top: 100px;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
