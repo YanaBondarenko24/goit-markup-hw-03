@@ -98,7 +98,6 @@ img {
   display: flex;
   align-items: center;
   padding: 24px 0;
-  margin-right: 76px;
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -260,7 +259,6 @@ img {
 .team-list-item-icon {
 }
 .icon-container {
-  width: calc(100% - (24px * 3) / 4);
   padding: 32px 0;
 }
 .team-list-title {
@@ -305,11 +303,9 @@ img {
   padding: 32px 16px;
 }
 .portfolio-list-title {
-  padding: 0 16px;
   margin-bottom: 8px;
 }
 .portfolio-list-text {
-  padding: 0 16px;
 }
 
 /* #endregion */
