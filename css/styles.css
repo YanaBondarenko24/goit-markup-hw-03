@@ -98,6 +98,7 @@ img {
   display: flex;
   align-items: center;
   padding: 24px 0;
+  margin-right: 76px;
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -260,7 +261,7 @@ img {
 }
 .icon-container {
   width: calc(100% - (24px * 3) / 4);
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-list-title {
   margin-bottom: 8px;
@@ -288,25 +289,27 @@ img {
 }
 .portfolio-list {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
 .portfolio-list-item {
   background-color: #fff;
-  width: calc(100% - (24 * 2) / 3);
 }
 .portfolio-list-item-icon {
+  width: calc(100% - (24px * 2) / 3);
 }
 .portfolio-container {
   border: 1px solid #e7e9fc;
   border-top: 0;
+  padding: 32px 16px;
 }
 .portfolio-list-title {
-  padding: 32px 16px 0;
+  padding: 0 16px;
   margin-bottom: 8px;
 }
 .portfolio-list-text {
-  padding: 0 16px 32px;
+  padding: 0 16px;
 }
 
 /* #endregion */
